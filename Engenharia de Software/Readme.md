@@ -2,3 +2,4 @@
 
 Titus Winters, Software Engineering at Google
 
+O texto diz que engenheiro de software e programador são coisas distintas, pois o engenheiro ele trabalha para produzir com vasta conhecimento no proceso não so apenas com as tecnologias, sendo assim pondendo ser exigido mais coisas dele, e também ele trabalha para manter o programa funcionando. já o programador ele irá produzir o programa talvez da mesma forma mas não com tanto conhecimento e apenas desenvolvendo não fazendo a manutenção.
