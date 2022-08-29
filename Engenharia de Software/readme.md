@@ -15,3 +15,6 @@
 - Separação de Interesses: definir uma arquitetura de aplicação com modelo MVC (separando assim lógica de negócios, comportamentos e interação com usuário);
 - Portabilidade: executar o sistema em diferentes plataformas (ex. web, nativa iOS, nativa Android e etc). Importante: a Separação de Interesses do item anterior me ajuda nisso, porque como minha lógica de negócios está encapsulada em um módulo do sistema, se torna possível reutilizá-las em diferentes plataformas;
 - Usabilidade: criar uma interface de simples acesso e uso às funções do sistema.
+
+## Diagrama de Classes UML
+![uiuo](https://user-images.githubusercontent.com/100934496/187312788-3412822e-acfe-42e7-8ae2-6f4be530112b.jpg)
