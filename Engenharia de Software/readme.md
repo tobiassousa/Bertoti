@@ -6,7 +6,7 @@
 
 ## Casos de Uso
 <div align="center">
-<img src="https://user-images.githubusercontent.com/100934496/186032837-ce2ff0e8-fd29-4fb9-8a54-0b1037146714.png" width='650px'/>
+<img src="https://user-images.githubusercontent.com/100934496/204062100-cf40cee5-78d8-4dd7-b5fc-a6baa5b2b680.jpeg" width='650px'/>
 </div>
 
 
