@@ -15,8 +15,8 @@ class Teste {
 		
 		assertEquals(garagem.getOnibus().size(),0);
 		
-		garagem.cadastraronibus(new Onibus("ABC1111", new Especificacao("ABC1111", "20", "Putim1", "3011", "180", "variant")));
-		garagem.cadastraronibus(new Onibus("ABC2222", new Especificacao("ABC2222", "20", "Putim", "3015", "180", "variant")));
+		garagem.cadastraronibus(new Onibus("ABC1111", new Especificacao("ABC1111", "20", "Putim1", "3011")));
+		garagem.cadastraronibus(new Onibus("ABC2222", new Especificacao("ABC2222", "20", "Putim", "3015")));
 		
 		assertEquals(garagem.getOnibus().size(),2);
 		
@@ -24,7 +24,7 @@ class Teste {
 		
 		assertEquals(busEncontrado.getEspec().getLinha(), "Putim1");
 		
-		List<Onibus> busEncontrados = garagem.buscarOnibusPorEspecificacao(new Especificacao("ABC2222", "20", "Putim", "3015", "180", "variant"));
+		List<Onibus> busEncontrados = garagem.buscarOnibusPorEspecificacao(new Especificacao("ABC2222", "20", "P", "3015"));
 		
 		assertEquals(busEncontrados.get(0).getEspec().getLinha(),"Putim");
 		

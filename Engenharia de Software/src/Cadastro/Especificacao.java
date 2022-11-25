@@ -1,38 +1,20 @@
 package Cadastro;
 
 public class Especificacao {
-	private String placa;
-	private String combustivel_gasto;
 	private String linha;
 	private String numero_do_onibus;
 	private String km;
 	 
 	
 	
-	public Especificacao(String placa, String combustivel_gasto, String linha, String numero_do_onibus, String km, String media ) {
-		this.placa = placa;
-		this.combustivel_gasto = combustivel_gasto;
+	public Especificacao(String linha, String numero_do_onibus, String km, String media ) {
 		this.linha = linha;
 		this.numero_do_onibus = numero_do_onibus;
 		this.km = km; 
 		
 	}
 	
-	public String getPlaca() {
-		return placa;
-	}
-	
-	public void setPlaca(String placa) {
-		this.placa = placa;
-	}
-	
-	public String getCombustivel_gasto() {
-		return combustivel_gasto;
-	}
-	
-	public void setCombustivel_gasto(String combustivel_gasto) {
-		this.combustivel_gasto = combustivel_gasto;
-	}
+
 	
 	public String getLinha() {
 		return linha;

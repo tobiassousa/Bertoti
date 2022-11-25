@@ -26,4 +26,7 @@ public class Garagem {
 			}
 			return null;
 	}
+	public List<Onibus> getOnibus(){
+		return this.bus;
+	}
 }
