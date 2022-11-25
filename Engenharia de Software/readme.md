@@ -17,4 +17,6 @@
 - Usabilidade: criar uma interface de simples acesso e uso às funções do sistema.
 
 ## Diagrama de Classes UML
-![uiuo](https://user-images.githubusercontent.com/100934496/187312788-3412822e-acfe-42e7-8ae2-6f4be530112b.jpg)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/100934496/204060887-000aeb85-259a-496f-8699-80b06a6d94c2.jpeg" width='650px'/>
+</div>
