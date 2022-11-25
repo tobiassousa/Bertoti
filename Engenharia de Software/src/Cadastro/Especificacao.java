@@ -6,7 +6,7 @@ public class Especificacao {
 	private String linha;
 	private String numero_do_onibus;
 	private String km;
-	private String media;
+	 
 	
 	
 	public Especificacao(String placa, String combustivel_gasto, String linha, String numero_do_onibus, String km, String media ) {
@@ -15,7 +15,7 @@ public class Especificacao {
 		this.linha = linha;
 		this.numero_do_onibus = numero_do_onibus;
 		this.km = km; 
-		this.media = media;
+		
 	}
 	
 	public String getPlaca() {
@@ -58,10 +58,17 @@ public class Especificacao {
 		this.km = km;
 	}
 	
-	public void setMedia() {
-	media = km / combustivel_gasto; 
-	System.out.println("A media de consumo eh " + media +" u.d./litros");
+	public boolean comparar(Especificacao especificacao) {
+		if(linha.equals(especificacao.linha)&&
+				numero_do_onibus.equals(especificacao.numero_do_onibus)) {
+			return true;
+		}else {
+			return false;
+		}
+		
 	}
+	
+	
 	
 	
 	
