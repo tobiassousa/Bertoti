@@ -6,41 +6,41 @@ import java.util.LinkedList;
 
 public class Model {
 	
-	private List<Carro> carros = new LinkedList<Carro>();
+	private List<Socio> socio = new LinkedList<Socio>();
 
 	public Model() {
-		addCarro(new Carro("AAA1111", new Especificacao("gol", "vw", "verde")));
+		addSocio(new Socio("Tobias", new Especificacao("18", "Efetivo")));
 	}
 	
-	public void addCarro(Carro carro){
-		carros.add(carro);
+	public void addSocio(Socio socio2){
+		socio.add(socio2);
 	}
 	
 
 	
 	
-	public List<Carro> buscarEspecificacao(Especificacao esp){
-		List<Carro> carrosEncontrados = new LinkedList<Carro>();
+	public List<Socio> buscarEspecificacao(Especificacao esp){
+		List<Socio> SocioEncontrados = new LinkedList<Socio>();
 		
-		for(Carro carro:carros){
-			 if(esp.comparar(carro.getEspc())) carrosEncontrados.add(carro);
+		for(Socio socio:socio){
+			 if(esp.comparar(socio.getEspc())) SocioEncontrados.add(socio);
 		}
 		
-		return carrosEncontrados;
+		return SocioEncontrados;
 		
 	}
 	
 	
-	public List<Carro> buscarModelo(String modelo){
-		List<Carro> carrosEncontrados = new LinkedList<Carro>();
-		for(Carro carro:carros) {
-			if(carro.getEspc().getModelo().equals(modelo)) carrosEncontrados.add(carro);
+	public List<Socio> buscarIdade(String idade){
+		List<Socio> socioEncontrados = new LinkedList<Socio>();
+		for(Socio socio:socio) {
+			if(socio.getEspc().getIdade().equals(idade)) socioEncontrados.add(socio);
 		}
-		return carrosEncontrados;
+		return socioEncontrados;
 	}
 	
-	public List<Carro> getCarros(){
-		return carros;
+	public List<Socio> getSocio(){
+		return socio;
 	}
 
 }
