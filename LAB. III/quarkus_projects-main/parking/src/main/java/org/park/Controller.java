@@ -44,6 +44,6 @@ public class Controller {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello RESTEasymmmmmmm";
+        return "Hello Tente Novamente";
     }
 }
