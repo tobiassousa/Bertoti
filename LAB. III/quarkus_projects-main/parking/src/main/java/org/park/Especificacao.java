@@ -1,27 +1,35 @@
 package org.park;
 
 public class Especificacao {
-	
-	private String idade;
-	private String categoria;
-	
-	public Especificacao(String idade, String categoria) {
-		this.idade = idade;
-		this.categoria = categoria;
+
+	private String nome;
+	private String diretor;
+	private String ano;
+
+	public Especificacao(String nome, String diretor, String ano){
+		this.nome = nome;
+		this.diretor = diretor;
+		this.ano = ano;
 	}
-	
-	public String getIdade() {
-		return idade;
+
+	public String getNome(){
+		return nome;
 	}
-	public String getCategoria() {
-		return categoria;
+
+	public String getDiretor(){
+		return diretor;
 	}
-	
-	public boolean comparar (Especificacao esp) {
-		if(idade.equals(esp.idade)&&categoria.equals(esp.categoria)) {
+
+	public String getAno(){
+		return ano;
+	}
+
+	public boolean comparar(Especificacao esp){
+		if(nome.equals(esp.nome) && diretor.equals(esp.diretor) && ano.equals(esp.ano)){
 			return true;
-		}else {
+		} else {
 			return false;
 		}
 	}
+
 }

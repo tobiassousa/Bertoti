@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Socios</title>
+    <title>Estacionamento</title>
 	
     
 	<script src="js/jquery.js"></script>
@@ -17,13 +17,13 @@
 
 			$("#busca").click(function() {
 
-				var idade = $( "#modelo option:selected" ).text();
-				var categoria = $( "#marca option:selected" ).text();
-				
+				var modelo = $( "#modelo option:selected" ).text();
+				var marca = $( "#marca option:selected" ).text();
+				var cor = $( "#cor option:selected" ).text();
 					
 				$("#dadosCarro").empty();
 					
-				var url = "/socio/"+idade+"/"+categoria+"";
+				var url = "/carro/"+modelo+"/"+marca+"/"+cor+"";
 					
 
 				$.getJSON(url, function(data) {
@@ -32,11 +32,11 @@
 						
 						$.each(data, function(i){
 						
-							itens.push("<tr> <td>"+ this.nome +"</td><td>"+ this.espc.idade + "</td><td>"+ this.espc.categoria + "</td></tr>");
+							itens.push("<tr> <td>"+ this.placa +"</td><td>"+ this.espc.modelo + "</td><td>"+ this.espc.marca + "</td><td>"+ this.espc.cor + "</td></tr>");
 							
 						});
 									
-						$("#dadosSocio").append(itens);
+						$("#dadosCarro").append(itens);
 						
 				});
 
@@ -58,12 +58,12 @@
 		
 		
             <div class="form-group col-md-4">
-                <label>Idade</label>
-                <select id="idade" class="input-large form-control">
-                    <option value="" selected="selected">Escolha sua idade</option>
-                    <option value="18">18</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
+                <label>Modelo</label>
+                <select id="modelo" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o ano</option>
+                    <option value="gol">gol</option>
+                    <option value="fox">fox</option>
+                    <option value="fusca">fusca</option>
                     
                 </select>
             </div>
@@ -71,35 +71,44 @@
 		
 		
             <div class="form-group col-md-4">
-                <label>Categoria</label>
+                <label>Marca</label>
                 <select id="marca" class="input-large form-control">
-                    <option value="" selected="selected">Escolha sua categoria</option>
-                    <option value="Efetivo">Efetivo</option>
-                    <option value="Especial">Especial</option>
-                    <option value="Oi">Oi</option>
+                    <option value="" selected="selected">Escolha o ano</option>
+                    <option value="vw">vw</option>
+                    <option value="fiat">fiat</option>
+                    <option value="ferrari">ferrari</option>
                     
                 </select>
             </div>
 		
 		
 		
-          
+            <div class="form-group col-md-4">
+                <label>Cor</label>
+                <select id="cor" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o periodo</option>
+                    <option value="vermelho">vermelho</option>
+                    <option value="verde">verde</option>
+                    
+                </select>
+            </div>
 		
 		</div>
 		
 		<button id="busca" class="btn btn-primary col-md-offset-5">Buscar</button>
 		
 		<table class="table table-bordered"> 
-			<caption>Socios</caption>
+			<caption>Carros</caption>
 				<thead>
 					<tr> 
-						<th>Idade</th>
-						<th>Categoria</th> 
-						<th>Nome</th> 
+						<th>Placa</th>
+						<th>Modelo</th> 
+						<th>Marca</th> 
+						<th>Cor</th> 
 					</tr> 
 				</thead> 
 				
-				<tbody id="dadosSocio"> 
+				<tbody id="dadosCarro"> 
 					
 				</tbody> 
 		</table>

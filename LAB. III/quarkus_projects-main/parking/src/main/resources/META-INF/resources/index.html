@@ -1,110 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Socios</title>
-	
-    
-	<script src="js/jquery.js"></script>
-	
-
-	<link href="css/bootstrap.min.css" rel=stylesheet>
-	
-	
-	<script>
-		$(document).ready(function(){
-			
-
-			$("#busca").click(function() {
-
-				var idade = $( "#modelo option:selected" ).text();
-				var categoria = $( "#marca option:selected" ).text();
-				
-					
-				$("#dadosCarro").empty();
-					
-				var url = "/socio/"+idade+"/"+categoria+"";
-					
-
-				$.getJSON(url, function(data) {
-						
-						var itens = [];
-						
-						$.each(data, function(i){
-						
-							itens.push("<tr> <td>"+ this.nome +"</td><td>"+ this.espc.idade + "</td><td>"+ this.espc.categoria + "</td></tr>");
-							
-						});
-									
-						$("#dadosSocio").append(itens);
-						
-				});
-
-			});
-
-		});
-
-	</script>
-
-   
-  </head>
+    <title>Locadora</title>
 
 
-  <body>
-		
+    <script src="js/jquery.js"></script>
 
-  		<div id="painelBusca">
-            
-		
-		
-            <div class="form-group col-md-4">
-                <label>Idade</label>
-                <select id="idade" class="input-large form-control">
-                    <option value="" selected="selected">Escolha sua idade</option>
-                    <option value="18">18</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
-                    
-                </select>
-            </div>
-		
-		
-		
-            <div class="form-group col-md-4">
-                <label>Categoria</label>
-                <select id="marca" class="input-large form-control">
-                    <option value="" selected="selected">Escolha sua categoria</option>
-                    <option value="Efetivo">Efetivo</option>
-                    <option value="Especial">Especial</option>
-                    <option value="Oi">Oi</option>
-                    
-                </select>
-            </div>
-		
-		
-		
-          
-		
-		</div>
-		
-		<button id="busca" class="btn btn-primary col-md-offset-5">Buscar</button>
-		
-		<table class="table table-bordered"> 
-			<caption>Socios</caption>
-				<thead>
-					<tr> 
-						<th>Idade</th>
-						<th>Categoria</th> 
-						<th>Nome</th> 
-					</tr> 
-				</thead> 
-				
-				<tbody id="dadosSocio"> 
-					
-				</tbody> 
-		</table>
 
-		
-  </body>
-  
+    <link href="css/bootstrap.min.css" rel=stylesheet>
+
+
+    <script>
+        $(document).ready(function(){
+
+
+            $("#buscaEspecifica").click(function() {
+
+                var nome = $( "#nome option:selected" ).text();
+                var diretor = $( "#diretor option:selected" ).text();
+                var ano = $( "#ano option:selected" ).text();
+
+                $("#dadosProduto").empty();
+
+                var url = "/produto/"+nome+"/"+diretor+"/"+ano+"";
+
+
+                $.getJSON(url, function(data) {
+
+                    var itens = [];
+
+                    $.each(data, function(i){
+
+                        itens.push("<tr> <td>"+ this.codigo +"</td><td>"+ this.espc.nome + "</td><td>"+ this.espc.diretor + "</td><td>"+ this.espc.ano + "</td></tr>");
+
+                    });
+
+                    $("#dadosProduto").append(itens);
+
+                });
+
+            });
+
+            $("#buscaNome").click(function() {
+
+                var nome = $( "#nome option:selected" ).text();
+
+                $("#dadosProduto").empty();
+
+                var url = "/produto/"+ "nome/"+nome;
+
+
+                $.getJSON(url, function(data) {
+
+                    var itens = [];
+
+                    $.each(data, function(i){
+
+                        itens.push("<tr> <td>"+ this.codigo +"</td><td>"+ this.espc.nome + "</td><td>"+ this.espc.diretor + "</td><td>"+ this.espc.ano + "</td></tr>");
+
+                    });
+
+                    $("#dadosProduto").append(itens);
+
+                });
+
+            });
+
+            $("#buscaDiretor").click(function() {
+
+                var diretor = $( "#diretor option:selected" ).text();
+
+                $("#dadosProduto").empty();
+
+                var url = "/produto/"+ "diretor/"+diretor;
+
+
+                $.getJSON(url, function(data) {
+
+                    var itens = [];
+
+                    $.each(data, function(i){
+
+                        itens.push("<tr> <td>"+ this.codigo +"</td><td>"+ this.espc.nome + "</td><td>"+ this.espc.diretor + "</td><td>"+ this.espc.ano + "</td></tr>");
+
+                    });
+
+                    $("#dadosProduto").append(itens);
+
+                });
+
+            });
+
+            $("#buscaAno").click(function() {
+
+                var ano = $( "#ano option:selected" ).text();
+
+                $("#dadosProduto").empty();
+
+                var url = "/produto/"+ "ano/"+ano;
+
+                $.getJSON(url, function(data) {
+
+                    var itens = [];
+
+                    $.each(data, function(i){
+
+                        itens.push("<tr> <td>"+ this.codigo +"</td><td>"+ this.espc.nome + "</td><td>"+ this.espc.diretor + "</td><td>"+ this.espc.ano + "</td></tr>");
+
+                    });
+
+                    $("#dadosProduto").append(itens);
+
+                });
+
+            });
+
+
+
+
+
+        });
+
+
+
+    </script>
+
+
+</head>
+
+
+<body>
+
+
+<div id="painelBusca">
+
+
+
+    <div class="form-group col-md-4">
+        <label>Nome</label>
+        <select id="nome" class="input-large form-control">
+            <option value="" selected="selected">Nome do Produto</option>
+            <option value="Avião">Avião</option>
+            <option value="Whatszapp">Whatszapp</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+
+        </select>
+    </div>
+
+
+
+    <div class="form-group col-md-4">
+        <label>Diretor</label>
+        <select id="diretor" class="input-large form-control">
+            <option value="" selected="selected">Diretor</option>
+            <option value="Ozires Silva">Ozires Silva</option>
+            <option value="Mark">Mark</option>
+
+        </select>
+    </div>
+
+
+
+    <div class="form-group col-md-4">
+        <label>Ano</label>
+        <select id="ano" class="input-large form-control">
+            <option value="" selected="selected">Ano de lançamento</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+
+        </select>
+    </div>
+
+</div>
+
+
+<div class="btn-group col-md-5">
+    <button id="buscaEspecifica" class="btn btn-danger">Busca especifica</button>
+    <button id="buscaNome" class="btn btn-danger">Buscar por nome</button>
+    <button id="buscaDiretor" class="btn btn-danger">Buscar por diretor</button>
+    <button id="buscaAno" class="btn btn-danger">Buscar por ano</button>
+</div>
+
+
+<table class="table table-bordered">
+    <caption>Albuns</caption>
+    <thead>
+    <tr>
+        <th>Codigo</th>
+        <th>Nome</th>
+        <th>Diretor</th>
+        <th>Ano</th>
+    </tr>
+    </thead>
+
+    <tbody id="dadosProduto">
+
+    </tbody>
+</table>
+
+
+</body>
+
 </html>
