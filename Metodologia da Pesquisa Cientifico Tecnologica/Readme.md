@@ -70,12 +70,11 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
 <details>
   <summary><b>Clique para ver a lista de hard skills</b></summary>
   
-  <p1>Desenvolvimento Front-end e Back-end: Adquiri habilidades de programação em JavaScript e Java, permitindo-me criar interfaces interativas (front-end) e desenvolver a lógica empresarial (back-end) para sistemas complexos.</p1>
+  <p1>Desenvolvimento Back-end: Adquiri habilidades de programação em Java, desenvolver a lógica empresarial (back-end) para sistemas complexos e tratamento de dados.</p1>
   
   <p1>Banco de Dados: Aprendi design de bancos de dados, SQL e gestão de dados ao utilizar o PostgreSQL para armazenamento e manipulação de informações.</p1>
   
-  <p1>Prototipagem e Design de Interface: Ao trabalhar com o Figma para desenvolvimento e prototipagem, desenvolvi uma compreensão sólida de usabilidade, layout e design centrado no usuário.</p1>
-</details>
+  </details>
 
 <h3>Soft Skills</h3>
 <details>
@@ -84,8 +83,6 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
   <p1>Proatividade: Enfrentar desafios como a padronização de dados demonstrou minha capacidade de propor e implementar soluções, evidenciando uma abordagem proativa para otimizar processos.</p1>
   
   <p1>Comunicação Assertiva: Ao explicar claramente problemas, soluções e jornadas do usuário, desenvolvi habilidades de comunicação eficaz, tornando informações técnicas acessíveis a diversos públicos.</p1>
-  
-  <p1>Trabalho em Equipe: A colaboração em projetos acadêmicos evidenciou minha habilidade de trabalhar em equipe, essencial em ambientes profissionais de desenvolvimento de software</p1>
   
   <p1>Resolução de Problemas: Enfrentar desafios complexos e criar soluções abrangentes para necessidades empresariais desenvolveu minhas habilidades de resolução de problemas, cruciais para abordar questões técnicas e de negócios.</p1>
 </details>
