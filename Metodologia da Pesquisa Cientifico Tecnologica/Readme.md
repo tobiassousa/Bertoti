@@ -14,7 +14,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 <p align="center"> <img src="https://github.com/tobiassousa/Bertoti/assets/100934496/61443c54-f5a7-465b-afe3-e987ac557708" width="2%">  <a href="https://www.linkedin.com/in/tobias-sousa-23bba822a/">LinkedIn</a> • <img src="https://github.com/tobiassousa/Bertoti/assets/100934496/7072e28e-19c1-43ec-b572-dff5569316d3" width="2%"> <a href="https://github.com/tobiassousa">GitHub</a> </p>
 <hr>
 
-<h2>Meus projetos</h2>
+<h2>Projetos</h2>
 <h3> Dom Rock </h3>
 3° Semestre - 01/2023
 
@@ -27,7 +27,7 @@ A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados 
 Utilizando modelos matemáticos e algoritmos baseados em aprendizado de máquina que endereçam duas soluções sendo Nxt.Demand com quatro produtos – Vox, Sales&Distribution, Marketing&Planning, Pricing – e Nxt.Operations com dois produtos – Matching&Risk e Optimization.
 
 
-## 💻 Proposta da Solução
+##  Proposta da Solução
 
 A empresa Dom Rock enfrentava a tarefa de padronizar os arquivos de predição de vendas de seus clientes, fornecidos no formato CSV. Reconhecendo a necessidade de otimizar esse processo, a empresa buscava desenvolver uma aplicação web que facilitasse a inserção e padronização desses dados, resultando em uma redução significativa do tempo dedicado a essa tarefa.
 
