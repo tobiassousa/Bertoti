@@ -27,7 +27,7 @@ A Dom Rock é uma empresa que oferece soluções utilizando tecnologia de dados 
 Utilizando modelos matemáticos e algoritmos baseados em aprendizado de máquina que endereçam duas soluções sendo Nxt.Demand com quatro produtos – Vox, Sales&Distribution, Marketing&Planning, Pricing – e Nxt.Operations com dois produtos – Matching&Risk e Optimization.
 
 
-## 💻 Nossa proposta
+## 💻 Proposta da Solução
 
 A empresa Dom Rock enfrentava a tarefa de padronizar os arquivos de predição de vendas de seus clientes, fornecidos no formato CSV. Reconhecendo a necessidade de otimizar esse processo, a empresa buscava desenvolver uma aplicação web que facilitasse a inserção e padronização desses dados, resultando em uma redução significativa do tempo dedicado a essa tarefa.
 
@@ -64,7 +64,7 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
 
 ## Lições Aprendidas
 
-<p align="justify"></p>
+<p align="justify">Tive meu primeiro contato com uma base de dados já pronta e com necessidade de organização em alguns dados, e primeiro contato com o uso do PostgreSQL</p>
 
 <h3>Hard Skills</h3>
 <details>
