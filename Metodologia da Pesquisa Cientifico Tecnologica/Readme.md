@@ -19,7 +19,7 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 3° Semestre - 01/2023
 
 Parceiro Acadêmico: Dom Rock
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/bbd9f4c7-56bf-4563-9da0-16977ffb6ac8" widht="20%"></img>
+<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/bbd9f4c7-56bf-4563-9da0-16977ffb6ac8" widht="10%"></img>
 
 ## Empresa parceira
 
@@ -35,22 +35,6 @@ Neste semestre, o nosso grupo está propondo uma solução abrangente para a emp
 
 Diante dessa complexidade, nossa proposta visa criar uma plataforma que harmonize e simplifique esses processos, proporcionando à Dom Rock uma gestão mais eficiente e informada de suas operações comerciais.
 
-
-## Jornada do usuário 
-
-<h3 align="center">Administrador</h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/9531f904-1ece-4ff3-901a-6a47299b344b" widht="20%"></img>
-
-<h3 align="center"> Vendedor </h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/0e703c34-f28e-45df-94eb-c607575095e5" widht="20%"></img>
-
-## Modelagem
-
-<h3 align="center">Modelagem Lógico</h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/a498c64f-808e-421b-8f27-548bb546585f" widht="20%"></img>
-
-<h3 align="center">Modelagem Relacional</h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/492bd35b-be4f-484d-a872-82fbc9e1bfa5" widht="20%"></img>
 
 ## Tecnologias Utilizadas
 
@@ -87,4 +71,19 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
   <p1>Resolução de Problemas: Enfrentar desafios complexos e criar soluções abrangentes para necessidades empresariais desenvolveu minhas habilidades de resolução de problemas, cruciais para abordar questões técnicas e de negócios.</p1>
 </details>
 
+## Arquitetura do Projeto
 
+### Jornada do usuário 
+<h3 align="center">Administrador</h3>
+<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/9531f904-1ece-4ff3-901a-6a47299b344b" widht="20%"></img>
+
+<h3 align="center"> Vendedor </h3>
+<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/0e703c34-f28e-45df-94eb-c607575095e5" widht="20%"></img>
+
+## Modelagem
+
+<h3 align="center">Modelagem Lógico</h3>
+<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/a498c64f-808e-421b-8f27-548bb546585f" widht="20%"></img>
+
+<h3 align="center">Modelagem Relacional</h3>
+<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/492bd35b-be4f-484d-a872-82fbc9e1bfa5" widht="20%"></img>
