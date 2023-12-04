@@ -50,13 +50,24 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
 
 <p align="justify">Tive meu primeiro contato com uma base de dados já pronta e com necessidade de organização em alguns dados, e primeiro contato com o uso do PostgreSQL</p>
 
+
+<h3>Contribuições</h3>
+<details>
+  <summary><b>Clique para ver as contribuições</b></summary>
+
+  <p1>Conduzi uma abordagem abrangente para o tratamento dos dados provenientes dos clientes, garantindo não apenas a captura precisa, mas também a validação e normalização adequadas para promover a consistência e integridade dos dados. Ao finalizar esse processo, estabeleci um conjunto de APIs que permitem uma interação eficiente entre os dados tratados e as diversas funcionalidades do sistema. Isso não só facilita o acesso aos dados, mas também promove a flexibilidade e expansibilidade do sistema para acomodar futuras exigências e evoluções.</p1>
+
+  <p1>Realizei o codigo para cadastramento de metas vendidas e sua tela. Além disso, integrei validações robustas para garantir a consistência e integridade dos dados inseridos, promovendo uma experiência livre de erros.</p1>
+</details>
+
+
 <h3>Hard Skills</h3>
 <details>
   <summary><b>Clique para ver a lista de hard skills</b></summary>
   
-  <p1>Desenvolvimento Back-end: Adquiri habilidades de programação em Java, desenvolver a lógica empresarial (back-end) para sistemas complexos e tratamento de dados.</p1>
+  <p1>Desenvolvimento Back-end: Adquiri proficiência substantiva em programação orientada a objetos, com especialização notável na linguagem de programação Java, destacando-me no desenvolvimento de arquiteturas robustas para a lógica empresarial de sistemas intricados. Minhas competências back-end transcendem a mera implementação de códigos, abrangendo uma compreensão profunda das complexidades inerentes à engenharia de software, especialmente quando se trata do tratamento de dados em ambientes empresariais de alta complexidade.</p1>
   
-  <p1>Banco de Dados: Aprendi design de bancos de dados, SQL e gestão de dados ao utilizar o PostgreSQL para armazenamento e manipulação de informações.</p1>
+  <p1>Banco de Dados: Cultivei profundo conhecimento no design de bancos de dados, aprimorando minhas habilidades na modelagem de estruturas eficientes e escaláveis para armazenamento de dados. Demonstrei proficiência expressiva na linguagem SQL, utilizando-a de maneira hábil para consultas complexas, manipulação de dados e otimização de desempenho. Ao adotar o PostgreSQL como sistema de gerenciamento de banco de dados, obtive uma compreensão aprofundada não apenas das nuances dessa plataforma, mas também da gestão estratégica de dados em ambientes dinâmicos e exigentes.</p1>
   
   </details>
 
@@ -73,17 +84,10 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
 
 ## Arquitetura do Projeto
 
-### Jornada do usuário 
+### Codigo para cadastro da meta vendida
 <h3 align="center">Administrador</h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/9531f904-1ece-4ff3-901a-6a47299b344b" widht="20%"></img>
+<p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/66f1703f-0597-4b47-9c5e-7890da778948" widht="20%"></img>
 
+### Tela para cadastro de venda
 <h3 align="center"> Vendedor </h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/0e703c34-f28e-45df-94eb-c607575095e5" widht="20%"></img>
-
-## Modelagem
-
-<h3 align="center">Modelagem Lógico</h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/a498c64f-808e-421b-8f27-548bb546585f" widht="20%"></img>
-
-<h3 align="center">Modelagem Relacional</h3>
-<p align="center"><img src="https://github.com/Ariane-Sousa/bertoti/assets/108765052/492bd35b-be4f-484d-a872-82fbc9e1bfa5" widht="20%"></img>
+<p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/9feab02d-3b32-45e1-9d18-280c012a7684" widht="20%"></img>
