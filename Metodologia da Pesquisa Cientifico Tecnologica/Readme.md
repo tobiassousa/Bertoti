@@ -85,9 +85,9 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
 ## Arquitetura do Projeto
 
 ### Codigo para cadastro da meta vendida
-<h3 align="center">Administrador</h3>
+<h3 align="center">Controller Meta</h3>
 <p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/66f1703f-0597-4b47-9c5e-7890da778948" widht="20%"></img>
 
 ### Tela para cadastro de venda
-<h3 align="center"> Vendedor </h3>
+<h3 align="center"> Registro de Venda </h3>
 <p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/9feab02d-3b32-45e1-9d18-280c012a7684" widht="20%"></img>
