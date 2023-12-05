@@ -54,10 +54,22 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
 <h3>Contribuições</h3>
 <details>
   <summary><b>Clique para ver as contribuições</b></summary>
+  <p1></p1>
 
   <p1>Conduzi uma abordagem abrangente para o tratamento dos dados provenientes dos clientes, garantindo não apenas a captura precisa, mas também a validação e normalização adequadas para promover a consistência e integridade dos dados. Ao finalizar esse processo, estabeleci um conjunto de APIs que permitem uma interação eficiente entre os dados tratados e as diversas funcionalidades do sistema. Isso não só facilita o acesso aos dados, mas também promove a flexibilidade e expansibilidade do sistema para acomodar futuras exigências e evoluções.</p1>
+  <h3 align="center">Exemplo do Controller Meta</h3>
+  <p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/66f1703f-0597-4b47-9c5e-7890da778948" widht="20%"></img>
 
   <p1>Realizei o codigo para cadastramento de metas vendidas e sua tela. Além disso, integrei validações robustas para garantir a consistência e integridade dos dados inseridos, promovendo uma experiência livre de erros.</p1>
+
+  <h3 align="center"> Tela do Registro de Venda </h3>
+  <p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/9feab02d-3b32-45e1-9d18-280c012a7684" widht="20%"></img>
+
+  <p1>Conduzi de maneira abrangente o processo de criação das tabelas no banco de dados, empregando os dados fornecidos pelo cliente como base para definir os tipos de dados mais apropriados e suas nomenclaturas correspondentes. A modelagem das tabelas foi estruturada de forma cuidadosa, levando em consideração as especificidades dos dados e os requisitos funcionais do sistema.
+ Finalizado este processo, assegurei-me de que as tabelas estivessem devidamente indexadas, promovendo a eficiência em consultas e operações de busca. A implementação de índices estratégicos contribui para a performance do sistema, especialmente em cenários que envolvem grandes volumes de dados.</p1>
+ <h3 align="center"> Criação das Tabelas</h3>
+  <p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/6e46a659-5b1a-4229-8ae8-4cc38ddf6f36" widht="20%"></img>
+
 </details>
 
 
@@ -82,12 +94,3 @@ Figma: utilizado para o desenvolvimento e prototipação das wireframes.
   <p1>Resolução de Problemas: Enfrentar desafios complexos e criar soluções abrangentes para necessidades empresariais desenvolveu minhas habilidades de resolução de problemas, cruciais para abordar questões técnicas e de negócios.</p1>
 </details>
 
-## Arquitetura do Projeto
-
-### Codigo para cadastro da meta vendida
-<h3 align="center">Controller Meta</h3>
-<p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/66f1703f-0597-4b47-9c5e-7890da778948" widht="20%"></img>
-
-### Tela para cadastro de venda
-<h3 align="center"> Registro de Venda </h3>
-<p align="center"><img src="https://github.com/tobiassousa/Bertoti/assets/100934496/9feab02d-3b32-45e1-9d18-280c012a7684" widht="20%"></img>
